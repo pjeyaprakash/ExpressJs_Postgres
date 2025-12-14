@@ -13,7 +13,7 @@ const app = express()
 
 app.use(cors())
 app.use(helmet())
-app.use(compression())
+// app.use(compression())
 app.use(express.json())
 
 const logPath = path.join("./src/logs/access.log")
