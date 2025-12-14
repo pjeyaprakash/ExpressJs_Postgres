@@ -1,6 +1,6 @@
 # ExpressJs_Postgres
 
-# --> Installation Setup
+# Installation Setup
 
 # step 1: In Terminal
 
@@ -14,16 +14,6 @@
 
 # step 2: create a file (server.js)
 
-project_folder/
-│
-├── node_modules/
-│
-├── package-lock.json
-├── package.json
-│
-└── server.js
-
-
 # step 3: Edit package.json
     In package.json file, 
         -- change the "main":"index.js" to "server.js"
@@ -33,13 +23,13 @@ project_folder/
         }
     as shown as below: -->
 
-{
-  "main": "server.js",  
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-}
+-- {
+--   "main": "server.js",  
+--   "type": "module",
+--   "scripts": {
+--     "test": "echo \"Error: no test specified\" && exit 1",
+--     "start": "node server.js",
+--     "dev": "nodemon server.js"
+--   },
+-- }
 
